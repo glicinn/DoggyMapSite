@@ -1,28 +1,25 @@
-name: Web IT-support check style
+name: Spring Build and Test
+
 on:
   push:
     branches:
       - main
 
 jobs:
-  web-support-check-style:
+  build-and-test:
     runs-on: ubuntu-latest
 
     steps:
       - name: Checkout repo
         uses: actions/checkout@v2
 
-      - name: Run HTML linting
-        run: |
-          npm install -g htmlhint
-          htmlhint . || true
+      - name: Set up JDK 11
+        uses: actions/setup-java@v2
+        with:
+          java-version: 11
 
-      - name: Run CSS linting
-        run: |
-          npm install -g stylelint
-          stylelint "**/*.css" || true
+      - name: Build with Maven
+        run: mvn clean install -B
 
-      - name: Run JavaScript linting
-        run: |
-          npm install -g eslint
-          eslint . || true
+      - name: Run tests
+        run: mvn test
