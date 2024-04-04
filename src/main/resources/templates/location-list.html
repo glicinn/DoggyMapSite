@@ -1,0 +1,80 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="shortcut icon" href="/css/images/siteicon.png" />
+    <meta charset="UTF-8">
+    <title>Локации</title>
+    <link rel="stylesheet" href="src/main/resources/static/styles.css" th:href="@{/styles.css}">
+</head>
+<body>
+
+<center>
+    <div class="navigation-header">
+        <form method="get">
+            <a href="/" class="btn btn-success btn-block mb-3 light-animated-button" style="display: inline-block;">
+                Назад
+            </a>
+            <a href="/locations/create" class="btn btn-success btn-block mb-3 animated-button"
+               style="display: inline-block; float: right;">Добавить локацию</a>
+            <br><br><br>
+        </form>
+    </div>
+</center>
+<hr><br>
+
+<div>
+    <h2 class="text-center mb-4" style="display: inline-block;">Список локаций</h2>
+</div>
+<center>
+    <table>
+        <thead>
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>CityName</th>
+            <th>XCoordinate</th>
+            <th>YCoordinate</th>
+            <th>Description</th>
+            <th>Link</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr th:each="location : ${locations}">
+            <td th:text="${location.locationID}"></td>
+            <td th:text="${location.name}"></td>
+            <td th:text="${location.cityName}"></td>
+            <td th:text="${location.XCoordinate}"></td>
+            <td th:text="${location.YCoordinate}"></td>
+            <td th:text="${location.description}"></td>
+            <td th:text="${location.link}"></td>
+
+            <!--      <td>-->
+            <!--&lt;!&ndash;        <a th:href="@{/users/update/{id}(id=${user.userID})}">Update</a>&ndash;&gt;-->
+            <!--&lt;!&ndash;        <a th:href="@{/users/delete/{id}(id=${user.userID})}">Delete</a>&ndash;&gt;-->
+            <!--      </td>-->
+        </tr>
+        </tbody>
+    </table>
+</center>
+<br><br>
+
+<!--<center>-->
+<!--  <a href="/news/create" class="add-btn">Добавить новость</a> <br><br>-->
+<!--</center>-->
+
+<hr><br>
+
+<!--<center>-->
+<!--  <div class="navigation">-->
+<!--    <form method="get">-->
+<!--      <a href="/" class="btn btn-success btn-block mb-3 animated-button">-->
+<!--        Назад-->
+<!--      </a>-->
+<!--    </form>-->
+<!--  </div>-->
+<!--</center>-->
+
+
+</body>
+</html>

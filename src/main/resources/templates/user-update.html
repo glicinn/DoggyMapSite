@@ -1,0 +1,39 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="shortcut icon" href="/css/images/siteicon.png" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create User</title>
+    <link rel="stylesheet" href="src/main/resources/static/styles.css" th:href="@{/styles.css}">
+</head>
+<body>
+<h2 class="text-center mb-4">Изменение пользователя</h2>
+
+<form action="/users/update" method="post" th:object="${user}">
+    <label>Имя: <input type="text" th:field="*{userFirstName}" required/></label> <br> <br>
+    <label>Возраст:  <input type="text" th:field="*{userLastName}" required/></label> <br> <br>
+    <label>Почта: <input type="text" th:field="*{email}" required/> <br> <br>
+        <label>Пароль: <input type="text" th:field="*{password}" required/> <br> <br>
+            <label>Роль: <select th:field="*{role}" required>
+                <option value="user">User</option>
+                <option value="admin">Admin</option>
+                <option value="employee">Employee</option>
+            </select></label> <br> <br>
+            <button type="submit" value="Update" class="add-btn">Изменить</button> <br><br>
+</form>
+<br><hr>
+<br/>
+<center>
+    <div class="navigation">
+        <form method="get">
+            <a href="/users" class="btn btn-success btn-block mb-3 animated-button">
+                Назад
+            </a>
+        </form>
+    </div>
+</center>
+</body>
+</html>
+

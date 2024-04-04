@@ -1,0 +1,81 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="shortcut icon" href="/css/images/siteicon.png" />
+  <meta charset="UTF-8">
+  <title>Новости</title>
+  <link rel="stylesheet" href="src/main/resources/static/styles.css" th:href="@{/styles.css}">
+</head>
+<body>
+
+<center>
+<div class="navigation-header">
+  <form method="get">
+    <a href="/" class="btn btn-success btn-block mb-3 light-animated-button" style="display: inline-block;">
+      Назад
+    </a>
+    <a href="/news/create" class="btn btn-success btn-block mb-3 animated-button"
+       style="display: inline-block; float: right;">Добавить новость</a>
+    <br><br><br>
+  </form>
+</div>
+</center>
+<hr><br>
+
+<div>
+<h2 class="text-center mb-4" style="display: inline-block;">Список новостей</h2>
+</div>
+<center>
+  <table>
+    <thead>
+    <tr>
+      <th>ID</th>
+      <th>Description</th>
+      <th>Name</th>
+      <th>BannerTitle</th>
+      <th>Artwork</th>
+      <th>Text</th>
+      <th>Link</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr th:each="news_ : ${news}">
+      <td th:text="${news_.newsID}"></td>
+      <td th:text="${news_.newsDescription}"></td>
+      <td th:text="${news_.newsName}"></td>
+      <td th:text="${news_.newsBannerTitle}"></td>
+<!--      <td th:text="${news_.newsArtwork}"></td>-->
+      <td><img th:src="${news_.newsArtwork}" style="width: 100%;"></td>
+      <td th:text="${news_.newsText}"></td>
+<!--      <td th:text="${news_.newsLink}"></td>-->
+      <td><a th:text="${news_.newsLink}" th:href="${news_.newsLink}"></a></td>
+<!--      <td>-->
+<!--&lt;!&ndash;        <a th:href="@{/users/update/{id}(id=${user.userID})}">Update</a>&ndash;&gt;-->
+<!--&lt;!&ndash;        <a th:href="@{/users/delete/{id}(id=${user.userID})}">Delete</a>&ndash;&gt;-->
+<!--      </td>-->
+    </tr>
+    </tbody>
+  </table>
+</center>
+<br><br>
+
+<!--<center>-->
+<!--  <a href="/news/create" class="add-btn">Добавить новость</a> <br><br>-->
+<!--</center>-->
+
+<hr><br>
+
+<!--<center>-->
+<!--  <div class="navigation">-->
+<!--    <form method="get">-->
+<!--      <a href="/" class="btn btn-success btn-block mb-3 animated-button">-->
+<!--        Назад-->
+<!--      </a>-->
+<!--    </form>-->
+<!--  </div>-->
+<!--</center>-->
+
+
+</body>
+</html>

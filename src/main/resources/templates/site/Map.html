@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>DoggyMap</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="/css/site.css"/>
+
+  <!-- Bootstrap 4 -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+  <!--  <script src="https://api-maps.yandex.ru/1.1/index.xml" type="text/javascript"></script>-->
+  <script src="https://api-maps.yandex.ru/2.1/?apikey=ab05b7ce-3a0c-47ef-96dc-64ae53b77736&lang=ru_RU">
+  </script>
+  <!-- -->
+
+</head>
+
+
+
+<body>
+<header>
+  <a href="/site/MainPage"><img src="/css/images/dogicon.jpg" alt="" class="iconleft" width="75" height="75" ismap> </a>
+  <a href="/site/Map" class="lefttext" style="font-family: 'Avenir Next Cyr';"><small><small><b>КАРТА</b></small></small></a>
+  <a href="/news/NewsPage" class="lefttext" style="font-family: 'Avenir Next Cyr';"><small><small><b>НОВОСТИ</b></small></small></a>
+  <a class="lefttext" style="font-family: 'Avenir Next Cyr';"><small><small><b>МАГАЗИН</b></small></small></a>
+  <a href="/site/Breeds" class="lefttext" style="font-family: 'Avenir Next Cyr';"><small><small><b>ПОРОДЫ</b></small></small></a>
+  <!--    <a href="/site/Vegetables" class="lefttext" style="font-family: 'Avenir Next Cyr';"><small><small><b>ОВОЩИ</b></small></small></a>-->
+  <!--    <a href="/site/Fruits" class="lefttext" style="font-family: 'Avenir Next Cyr';"><small><small><b>ФРУКТЫ</b></small></small></a>-->
+  <!--    <a href="/site/Drinks" class="lefttext" style="font-family: 'Avenir Next Cyr';"><small><small><b>НАПИТКИ</b></small></small></a>-->
+  <!--    <a href="/site/Snacks" class="lefttext" style="font-family: 'Avenir Next Cyr';"><small><small><b>СНЭКИ</b></small></small></a>-->
+  <!--    <a href="/site/Sale" class="lefttext" style="font-family: 'Avenir Next Cyr';"><small><small><b>РАСПРОДАЖА</b></small></small></a>-->
+
+  <a href="/site/LogIn"><img src="/css/images/person.png" alt="" class="iconright" width="25" height="25" ismap> </a>
+  <!--    <a href="/site/Favorite"><img src="/css/images/heart.png" alt="" class="iconright" width="30" height="30" ismap> </a>-->
+  <!--    <a href="/site/Cart"><img src="/css/images/cart.png" alt="" class="iconright" width="30" height="30" ismap> </a>-->
+
+  <br>
+  <br>
+  <br>
+</header>
+
+<div class="blackdiv">
+  <center>
+    <br />
+    <h1 style="font-family: 'Georgia', serif;">Карта площадок</h1>
+    <br />
+  </center>
+</div>
+
+
+
+
+
+
+
+
+
+<div class="wrapper">
+  <div>
+    <a><font color="darkgray"><small>
+
+      <!--      <div style="position:relative;overflow:hidden;"><a href="https://yandex.ru/maps/213/moscow/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:0px;">Москва</a><a href="https://yandex.ru/maps/213/moscow/?ll=37.623737%2C55.752213&utm_medium=mapframe&utm_source=maps&z=11.8" style="color:#eee;font-size:12px;position:absolute;top:14px;">Москва — Яндекс Карты</a><iframe src="https://yandex.ru/map-widget/v1/?ll=37.623737%2C55.752213&z=11.8" width="100%" height="700" frameborder="0" allowfullscreen="true" style="position:relative;"></iframe></div>-->
+      <div id="map-test" class="map"> </div>
+      <script type="text/javascript">
+
+        let center = [55.75428442337138,37.62071970898438]
+        function init(){
+          let map = new ymaps.Map('map-test', {
+            center: center,
+            zoom: 12
+          });
+
+          let placemark = new ymaps.Placemark([55.752683, 37.637656], {
+            balloonContent: `
+            <div class="balloon">
+                <img class="balloon_image" src="/css/images/placesfoto/kitaigorod-1.jpg">
+                <div class="balloon_text_block">
+                  <div class="balloon_name"><h4><b>Kitai Gorod</b></h4></div>
+                  <div class="balloon_address"><h6>Moscow</h6></div>
+                  <hr>
+                  <div class="balloon_text">Dog walking areas are completely fenced areas
+                   where dogs can spend time off-leash. The grounds come complete with special
+                    dog training structures that have proven themselves in popular dog
+                     competitions called agility.</div>
+                  <div class="balloon_link"><a href="https://www.google.com/">Read more</a></div>
+                </div>
+            </div>
+            `
+
+          }, {
+            iconLayout: 'default#image',
+            iconImageHref: '/css/images/placelogo.png',
+            iconImageSize: [25, 25],
+            iconImageOffset: [-10, -10] // Отступ от центра
+          });
+
+
+          let placemark2 = new ymaps.Placemark([55.797375, 37.679011], {
+            balloonContent: `
+            <div class="balloon">
+                <img class="balloon_image" src="/css/images/placesfoto/sokolniki-1.jpg">
+                <div class="balloon_text_block">
+                  <div class="balloon_name"><h4><b>Sokolniki</b></h4></div>
+                  <div class="balloon_address"><h6>Moscow</h6></div>
+                  <hr>
+                  <div class="balloon_text">Dog walking areas are completely fenced areas
+                   where dogs can spend time off-leash. The grounds come complete with special
+                    dog training structures that have proven themselves in popular dog
+                     competitions called agility.</div>
+                  <div class="balloon_link"><a href="https://www.google.com/">Read more</a></div>
+                </div>
+            </div>
+            `
+          }, {
+            iconLayout: 'default#image',
+            iconImageHref: '/css/images/placelogo.png',
+            iconImageSize: [25, 25],
+            iconImageOffset: [-10, -10] // Отступ от центра
+          })
+
+          let placemark3 = new ymaps.Placemark([55.770992, 37.579130], {
+            balloonContent: `
+            <div class="balloon">
+                <img class="balloon_image" src="/css/images/placesfoto/belorus-1.jpg">
+                <div class="balloon_text_block">
+                  <div class="balloon_name"><h4><b>Belorusskaya</b></h4></div>
+                  <div class="balloon_address"><h6>Moscow</h6></div>
+                  <hr>
+                  <div class="balloon_text">Dog walking areas are completely fenced areas
+                   where dogs can spend time off-leash. The grounds come complete with special
+                    dog training structures that have proven themselves in popular dog
+                     competitions called agility.</div>
+                  <div class="balloon_link"><a href="https://www.google.com/">Read more</a></div>
+                </div>
+            </div>
+            `
+          }, {
+            iconLayout: 'default#image',
+            iconImageHref: '/css/images/placelogo.png',
+            iconImageSize: [25, 25],
+            iconImageOffset: [-10, -10] // Отступ от центра
+          })
+
+          let placemark4 = new ymaps.Placemark([55.825417, 37.580617], {
+            balloonContent: `
+            <div class="balloon">
+                <img class="balloon_image" src="/css/images/placesfoto/fonviz-1.jpg">
+                <div class="balloon_text_block">
+                  <div class="balloon_name"><h4><b>Fonvizinskaya</b></h4></div>
+                  <div class="balloon_address"><h6>Moscow</h6></div>
+                  <hr>
+                  <div class="balloon_text">Dog walking areas are completely fenced areas
+                   where dogs can spend time off-leash. The grounds come complete with special
+                    dog training structures that have proven themselves in popular dog
+                     competitions called agility.</div>
+                  <div class="balloon_link"><a href="https://www.google.com/">Read more</a></div>
+                </div>
+            </div>
+            `
+          }, {
+            iconLayout: 'default#image',
+            iconImageHref: '/css/images/placelogo.png',
+            iconImageSize: [25, 25],
+            iconImageOffset: [-10, -10] // Отступ от центра
+          })
+
+          let placemark5 = new ymaps.Placemark([55.704394, 37.576730], {
+            balloonContent: `
+            <div class="balloon">
+                <img class="balloon_image" src="/css/images/placesfoto/gagarina-1.jpg">
+                <div class="balloon_text_block">
+                  <div class="balloon_name"><h4><b>Pl. Gagarina</b></h4></div>
+                  <div class="balloon_address"><h6>Moscow</h6></div>
+                  <hr>
+                  <div class="balloon_text">Dog walking areas are completely fenced areas
+                   where dogs can spend time off-leash. The grounds come complete with special
+                    dog training structures that have proven themselves in popular dog
+                     competitions called agility.</div>
+                  <div class="balloon_link"><a href="https://www.google.com/">Read more</a></div>
+                </div>
+            </div>
+            `
+          }, {
+            iconLayout: 'default#image',
+            iconImageHref: '/css/images/placelogo.png',
+            iconImageSize: [25, 25],
+            iconImageOffset: [-10, -10] // Отступ от центра
+          })
+
+          let placemark6 = new ymaps.Placemark([55.681022, 37.635278], {
+            balloonContent: `
+            <div class="balloon">
+                <img class="balloon_image" src="/css/images/placesfoto/nagat-1.jpg">
+                <div class="balloon_text_block">
+                  <div class="balloon_name"><h4><b>Nagatinskaya</b></h4></div>
+                  <div class="balloon_address"><h6>Moscow</h6></div>
+                  <hr>
+                  <div class="balloon_text">Dog walking areas are completely fenced areas
+                   where dogs can spend time off-leash. The grounds come complete with special
+                    dog training structures that have proven themselves in popular dog
+                     competitions called agility.</div>
+                  <div class="balloon_link"><a href="https://www.google.com/">Read more</a></div>
+                </div>
+            </div>
+            `
+          }, {
+            iconLayout: 'default#image',
+            iconImageHref: '/css/images/placelogo.png',
+            iconImageSize: [25, 25],
+            iconImageOffset: [-10, -10] // Отступ от центра
+          })
+
+          let placemark7 = new ymaps.Placemark([55.802518, 37.610539], {
+            balloonContent: `
+            <div class="balloon">
+                <img class="balloon_image" src="/css/images/placesfoto/rosha-1.jpg">
+                <div class="balloon_text_block">
+                  <div class="balloon_name"><h4><b>Mariina Rosha</b></h4></div>
+                  <div class="balloon_address"><h6>Moscow</h6></div>
+                  <hr>
+                  <div class="balloon_text">Dog walking areas are completely fenced areas
+                   where dogs can spend time off-leash. The grounds come complete with special
+                    dog training structures that have proven themselves in popular dog
+                     competitions called agility.</div>
+                  <div class="balloon_link"><a href="https://www.google.com/">Read more</a></div>
+                </div>
+            </div>
+            `
+          }, {
+            iconLayout: 'default#image',
+            iconImageHref: '/css/images/placelogo.png',
+            iconImageSize: [25, 25],
+            iconImageOffset: [-10, -10] // Отступ от центра
+          })
+
+          let placemark8 = new ymaps.Placemark([55.739306, 37.627626], {
+            balloonContent: `
+            <div class="balloon">
+                <img class="balloon_image" src="/css/images/placesfoto/tretyak-1.jpg">
+                <div class="balloon_text_block">
+                  <div class="balloon_name"><h4><b>Tretyakovskaya</b></h4></div>
+                  <div class="balloon_address"><h6>Moscow</h6></div>
+                  <hr>
+                  <div class="balloon_text">Dog walking areas are completely fenced areas
+                   where dogs can spend time off-leash. The grounds come complete with special
+                    dog training structures that have proven themselves in popular dog
+                     competitions called agility.</div>
+                  <div class="balloon_link"><a href="https://www.google.com/">Read more</a></div>
+                </div>
+            </div>
+            `
+          }, {
+            iconLayout: 'default#image',
+            iconImageHref: '/css/images/placelogo.png',
+            iconImageSize: [25, 25],
+            iconImageOffset: [-10, -10] // Отступ от центра
+          })
+
+          map.controls.remove('geolocationControl'); // удаляем геолокацию
+          map.controls.remove('searchControl'); // удаляем поиск
+          map.controls.remove('trafficControl'); // удаляем контроль трафика
+          map.controls.remove('typeSelector'); // удаляем тип
+          map.controls.remove('fullscreenControl'); // удаляем кнопку перехода в полноэкранный режим
+          map.controls.remove('zoomControl'); // удаляем контрол зуммирования
+          map.controls.remove('rulerControl'); // удаляем контрол правил
+          map.behaviors.disable(['scrollZoom']); // отключаем скролл карты (опционально)
+
+          map.geoObjects.add(placemark);
+          map.geoObjects.add(placemark2);
+          map.geoObjects.add(placemark3);
+          // map.geoObjects.add(placemark4);
+          map.geoObjects.add(placemark5);
+          map.geoObjects.add(placemark6);
+          map.geoObjects.add(placemark7);
+          map.geoObjects.add(placemark8);
+        }
+
+        ymaps.ready(init);
+      </script>
+      <br />
+
+    </small></font></a>
+  </div>
+</div>
+
+
+
+
+
+
+
+<footer>
+  <small>
+
+    <table>
+
+      <thead>
+
+      <tr>
+        <th><a style="font-family: 'Avenir Next Cyr Bold';"><b>Распродажа</b></a></th>
+        <th><a style="font-family: 'Avenir Next Cyr Bold';"><b>Покупателям</b></a></th>
+        <th><a style="font-family: 'Avenir Next Cyr Bold';"><b>О компании</b></a></th>
+        <th><a style="font-family: 'Avenir Next Cyr Bold';"><b>Партнерам</b></a></th>
+      </tr>
+      </thead>
+      <tbody>
+      <tr>
+        <td><small><a href="/site/Map" class="footertext">Карта</a></small></td>
+        <td><small><a href="/site/LogUp" class="footertext">Регистрация/Вход</a></small></td>
+        <td><small><a href="/site/History" class="footertext">История компании</a></small></td>
+        <td><small>Корпоративные продажи</small></td>
+      </tr>
+      <tr>
+        <td><small><a href="/site/News" class="footertext">Новости</a></small></td>
+        <td><small><a href="/site/Favorite" class="footertext">Избранное</a></small></td>
+        <td><small><a href="/site/Jobs" class="footertext">Вакансии</a></small></td>
+        <td><small>Рекламодателям</small></td>
+      </tr>
+      <tr>
+        <td><small><a href="/site/Shop" class="footertext">Магазин</a></small></td>
+        <td><small><a href="/site/Cart" class="footertext">Корзина</a></small></td>
+        <td><small>Политика конфиденциальности</small></td>
+        <td><small>Аренда</small></td>
+      </tr>
+      <tr>
+        <td><small><a href="/site/Breeds" class="footertext">Породы</a></small></td>
+        <td><small> </small></td>
+        <td><small>Контакты</small></td>
+        <td><small>Поставщикам</small></td>
+      </tr>
+      <tr>
+        <td><small> </small></td>
+        <td><small> </small></td>
+        <td><small> </small></td>
+        <td><small> </small></td>
+      </tr>
+      </tbody>
+    </table>
+    <br />
+    <hr style="border: 0.5px dashed white; width: 90%; padding-left: 0px; margin-left: 0px; padding-right: 0px; margin-right: 0px;">
+
+    <a style="font-family: 'Avenir Next Cyr Medium';"><small>© 2024 DoggyMap. Все права защищены. Копирование допускается
+      только с указанием обратной ссылки на источник. <br> Контент на сайте
+      строго 12+</small></a>
+
+  </small>
+</footer>
+</body>
