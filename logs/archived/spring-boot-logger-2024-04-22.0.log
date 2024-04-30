@@ -1,0 +1,383 @@
+2024-04-22 00:44:02,932 WARN [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=16h50m14s738ms).
+2024-04-22 02:21:32,729 WARN [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h9m56s648ms).
+2024-04-22 03:45:59,794 WARN [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h24m27s76ms).
+2024-04-22 04:55:36,526 WARN [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h9m36s728ms).
+2024-04-22 06:32:52,319 WARN [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h37m15s797ms).
+2024-04-22 07:39:39,256 WARN [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h6m46s937ms).
+2024-04-22 08:40:42,230 WARN [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h1m2s973ms).
+2024-04-22 09:31:00,496 WARN [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=50m18s267ms).
+2024-04-22 10:42:39,546 WARN [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h11m39s50ms).
+2024-04-22 11:43:38,724 WARN [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h59s177ms).
+2024-04-22 12:40:21,736 WARN [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=56m43s13ms).
+2024-04-22 13:22:13,823 WARN [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=41m52s87ms).
+2024-04-22 13:39:35,616 WARN [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=16m51s778ms).
+2024-04-22 14:04:13,787 WARN [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=18m8s90ms).
+2024-04-22 14:19:44,379 WARN [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=14m564ms).
+2024-04-22 14:37:06,726 WARN [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m52s335ms).
+2024-04-22 14:46:02,181 WARN [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=6m55s418ms).
+2024-04-22 15:04:05,122 WARN [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=16m32s909ms).
+2024-04-22 15:15:27,995 WARN [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=9m52s847ms).
+2024-04-22 15:16:43,162 WARN [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m15s165ms).
+2024-04-22 15:25:06,299 ERROR [http-nio-8888-exec-10] Виу виу
+2024-04-22 15:27:59,735 INFO [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-04-22 15:27:59,749 INFO [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2024-04-22 15:27:59,786 INFO [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2024-04-22 15:28:03,554 INFO [background-preinit] HV000001: Hibernate Validator 6.2.0.Final
+2024-04-22 15:28:03,562 INFO [restartedMain] Starting DoggyMapApplication using Java 17.0.9 on MacBook-Air-Dmitrij-3.local with PID 97151 (/Users/dmitriideren/IdeaProjects/DoggyMap/target/classes started by dmitriideren in /Users/dmitriideren/IdeaProjects/DoggyMap)
+2024-04-22 15:28:03,562 INFO [restartedMain] No active profile set, falling back to default profiles: default
+2024-04-22 15:28:03,590 INFO [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-04-22 15:28:03,590 INFO [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-04-22 15:28:03,916 INFO [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-22 15:28:03,939 INFO [restartedMain] Finished Spring Data repository scanning in 19 ms. Found 4 JPA repository interfaces.
+2024-04-22 15:28:04,191 INFO [restartedMain] Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@5c3f9677' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-04-22 15:28:04,192 INFO [restartedMain] Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-04-22 15:28:04,318 INFO [restartedMain] Tomcat initialized with port(s): 8888 (http)
+2024-04-22 15:28:04,322 INFO [restartedMain] Initializing ProtocolHandler ["http-nio-8888"]
+2024-04-22 15:28:04,323 INFO [restartedMain] Starting service [Tomcat]
+2024-04-22 15:28:04,323 INFO [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.52]
+2024-04-22 15:28:04,353 INFO [restartedMain] Initializing Spring embedded WebApplicationContext
+2024-04-22 15:28:04,353 INFO [restartedMain] Root WebApplicationContext: initialization completed in 762 ms
+2024-04-22 15:28:04,494 INFO [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-04-22 15:28:04,525 INFO [restartedMain] HHH000412: Hibernate ORM core version 5.4.32.Final
+2024-04-22 15:28:04,586 INFO [restartedMain] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2024-04-22 15:28:04,628 INFO [restartedMain] HikariPool-1 - Starting...
+2024-04-22 15:28:04,848 INFO [restartedMain] HikariPool-1 - Start completed.
+2024-04-22 15:28:04,863 INFO [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2024-04-22 15:28:05,205 WARN [restartedMain] GenerationTarget encountered exception accepting command : Error executing DDL "create table news (news_id bigint not null auto_increment, artwork varchar(255), banner_title varchar(255), description varchar(255), link varchar(255), name varchar(255), text varchar(255), primary key (news_id)) engine=InnoDB" via JDBC Statement
+org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL "create table news (news_id bigint not null auto_increment, artwork varchar(255), banner_title varchar(255), description varchar(255), link varchar(255), name varchar(255), text varchar(255), primary key (news_id)) engine=InnoDB" via JDBC Statement
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:67)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applySqlString(AbstractSchemaMigrator.java:562)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applySqlStrings(AbstractSchemaMigrator.java:507)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.createTable(AbstractSchemaMigrator.java:277)
+	at org.hibernate.tool.schema.internal.GroupedSchemaMigratorImpl.performTablesMigration(GroupedSchemaMigratorImpl.java:71)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.performMigration(AbstractSchemaMigrator.java:207)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.doMigration(AbstractSchemaMigrator.java:114)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:184)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:73)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:318)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:468)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1259)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:58)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:341)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1845)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1782)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:602)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:524)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1154)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:908)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:434)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:338)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1332)
+	at com.example.doggymap.DoggyMapApplication.main(DoggyMapApplication.java:14)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: java.sql.SQLSyntaxErrorException: Table 'news' already exists
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:121)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.StatementImpl.executeInternal(StatementImpl.java:767)
+	at com.mysql.cj.jdbc.StatementImpl.execute(StatementImpl.java:652)
+	at com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:94)
+	at com.zaxxer.hikari.pool.HikariProxyStatement.execute(HikariProxyStatement.java)
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:54)
+	... 39 common frames omitted
+2024-04-22 15:28:05,206 INFO [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-04-22 15:28:05,209 INFO [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-22 15:28:05,230 WARN [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-22 15:28:05,543 INFO [restartedMain] Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@244ee6a7, org.springframework.security.web.context.SecurityContextPersistenceFilter@f6b027f, org.springframework.security.web.header.HeaderWriterFilter@5d84c635, org.springframework.security.web.authentication.logout.LogoutFilter@4c7e7640, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@2c825376, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@61c7126, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@35150277, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@61633c24, org.springframework.security.web.session.SessionManagementFilter@40387d27, org.springframework.security.web.access.ExceptionTranslationFilter@6f66ccb9, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@1b99b2fb]
+2024-04-22 15:28:05,652 INFO [restartedMain] Adding welcome page template: index
+2024-04-22 15:28:05,823 INFO [restartedMain] LiveReload server is running on port 35729
+2024-04-22 15:28:05,826 INFO [restartedMain] Exposing 2 endpoint(s) beneath base path '/actuator'
+2024-04-22 15:28:05,851 INFO [restartedMain] 
+
+Using generated security password: e3229685-4e90-4156-bbcb-6bc19b3f5386
+
+2024-04-22 15:28:05,856 INFO [restartedMain] Starting ProtocolHandler ["http-nio-8888"]
+2024-04-22 15:28:05,863 INFO [restartedMain] Tomcat started on port(s): 8888 (http) with context path ''
+2024-04-22 15:28:05,872 INFO [restartedMain] Started DoggyMapApplication in 2.52 seconds (JVM running for 3.402)
+2024-04-22 15:28:06,228 INFO [RMI TCP Connection(2)-127.0.0.1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-04-22 15:28:06,228 INFO [RMI TCP Connection(2)-127.0.0.1] Initializing Servlet 'dispatcherServlet'
+2024-04-22 15:28:06,229 INFO [RMI TCP Connection(2)-127.0.0.1] Completed initialization in 1 ms
+2024-04-22 15:29:23,348 INFO [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-04-22 15:29:23,358 INFO [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2024-04-22 15:29:23,373 INFO [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2024-04-22 15:29:25,832 INFO [background-preinit] HV000001: Hibernate Validator 6.2.0.Final
+2024-04-22 15:29:25,839 INFO [restartedMain] Starting DoggyMapApplication using Java 17.0.9 on MacBook-Air-Dmitrij-3.local with PID 97267 (/Users/dmitriideren/IdeaProjects/DoggyMap/target/classes started by dmitriideren in /Users/dmitriideren/IdeaProjects/DoggyMap)
+2024-04-22 15:29:25,839 INFO [restartedMain] No active profile set, falling back to default profiles: default
+2024-04-22 15:29:25,866 INFO [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-04-22 15:29:25,866 INFO [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-04-22 15:29:26,196 INFO [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-22 15:29:26,222 INFO [restartedMain] Finished Spring Data repository scanning in 21 ms. Found 4 JPA repository interfaces.
+2024-04-22 15:29:26,510 INFO [restartedMain] Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@3800a48e' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-04-22 15:29:26,512 INFO [restartedMain] Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-04-22 15:29:26,659 INFO [restartedMain] Tomcat initialized with port(s): 8888 (http)
+2024-04-22 15:29:26,665 INFO [restartedMain] Initializing ProtocolHandler ["http-nio-8888"]
+2024-04-22 15:29:26,665 INFO [restartedMain] Starting service [Tomcat]
+2024-04-22 15:29:26,665 INFO [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.52]
+2024-04-22 15:29:26,700 INFO [restartedMain] Initializing Spring embedded WebApplicationContext
+2024-04-22 15:29:26,700 INFO [restartedMain] Root WebApplicationContext: initialization completed in 833 ms
+2024-04-22 15:29:26,866 INFO [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-04-22 15:29:26,903 INFO [restartedMain] HHH000412: Hibernate ORM core version 5.4.32.Final
+2024-04-22 15:29:26,974 INFO [restartedMain] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2024-04-22 15:29:27,026 INFO [restartedMain] HikariPool-1 - Starting...
+2024-04-22 15:29:27,263 INFO [restartedMain] HikariPool-1 - Start completed.
+2024-04-22 15:29:27,279 INFO [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2024-04-22 15:29:27,646 WARN [restartedMain] GenerationTarget encountered exception accepting command : Error executing DDL "create table news (news_id bigint not null auto_increment, artwork varchar(255), banner_title varchar(255), description varchar(255), link varchar(255), name varchar(255), text varchar(255), primary key (news_id)) engine=InnoDB" via JDBC Statement
+org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL "create table news (news_id bigint not null auto_increment, artwork varchar(255), banner_title varchar(255), description varchar(255), link varchar(255), name varchar(255), text varchar(255), primary key (news_id)) engine=InnoDB" via JDBC Statement
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:67)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applySqlString(AbstractSchemaMigrator.java:562)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applySqlStrings(AbstractSchemaMigrator.java:507)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.createTable(AbstractSchemaMigrator.java:277)
+	at org.hibernate.tool.schema.internal.GroupedSchemaMigratorImpl.performTablesMigration(GroupedSchemaMigratorImpl.java:71)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.performMigration(AbstractSchemaMigrator.java:207)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.doMigration(AbstractSchemaMigrator.java:114)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:184)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:73)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:318)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:468)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1259)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:58)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:341)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1845)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1782)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:602)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:524)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1154)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:908)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:434)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:338)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1332)
+	at com.example.doggymap.DoggyMapApplication.main(DoggyMapApplication.java:14)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: java.sql.SQLSyntaxErrorException: Table 'news' already exists
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:121)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.StatementImpl.executeInternal(StatementImpl.java:767)
+	at com.mysql.cj.jdbc.StatementImpl.execute(StatementImpl.java:652)
+	at com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:94)
+	at com.zaxxer.hikari.pool.HikariProxyStatement.execute(HikariProxyStatement.java)
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:54)
+	... 39 common frames omitted
+2024-04-22 15:29:27,647 INFO [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-04-22 15:29:27,651 INFO [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-22 15:29:27,677 WARN [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-22 15:29:28,032 INFO [restartedMain] Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@b6350bb, org.springframework.security.web.context.SecurityContextPersistenceFilter@4e9aad77, org.springframework.security.web.header.HeaderWriterFilter@3f95af35, org.springframework.security.web.authentication.logout.LogoutFilter@23bd8218, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@6f17cb43, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1b6e06af, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4e40572f, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5b30d2ab, org.springframework.security.web.session.SessionManagementFilter@54551f9, org.springframework.security.web.access.ExceptionTranslationFilter@737d35c3, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@2c62726e]
+2024-04-22 15:29:28,161 INFO [restartedMain] Adding welcome page template: index
+2024-04-22 15:29:28,383 INFO [restartedMain] LiveReload server is running on port 35729
+2024-04-22 15:29:28,387 INFO [restartedMain] Exposing 2 endpoint(s) beneath base path '/actuator'
+2024-04-22 15:29:28,415 INFO [restartedMain] 
+
+Using generated security password: d2f5d978-06c0-4295-aa2c-1049127b5e1a
+
+2024-04-22 15:29:28,422 INFO [restartedMain] Starting ProtocolHandler ["http-nio-8888"]
+2024-04-22 15:29:28,430 INFO [restartedMain] Tomcat started on port(s): 8888 (http) with context path ''
+2024-04-22 15:29:28,440 INFO [restartedMain] Started DoggyMapApplication in 2.83 seconds (JVM running for 3.662)
+2024-04-22 15:29:28,947 INFO [RMI TCP Connection(2)-127.0.0.1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-04-22 15:29:28,947 INFO [RMI TCP Connection(2)-127.0.0.1] Initializing Servlet 'dispatcherServlet'
+2024-04-22 15:29:28,948 INFO [RMI TCP Connection(2)-127.0.0.1] Completed initialization in 1 ms
+2024-04-22 15:30:34,038 ERROR [http-nio-8888-exec-6] Виу виу
+2024-04-22 15:32:57,426 WARN [http-nio-8888-exec-5] Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [161] milliseconds.
+2024-04-22 15:45:37,069 ERROR [http-nio-8888-exec-8] Виу виу
+2024-04-22 15:46:34,038 ERROR [http-nio-8888-exec-4] Виу виу
+2024-04-22 15:48:29,776 ERROR [http-nio-8888-exec-4] Виу виу
+2024-04-22 18:30:35,441 INFO [Thread-5] Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-04-22 18:30:35,464 INFO [Thread-5] HikariPool-1 - Shutdown initiated...
+2024-04-22 18:30:35,481 INFO [Thread-5] HikariPool-1 - Shutdown completed.
+2024-04-22 18:30:35,733 INFO [restartedMain] Starting DoggyMapApplication using Java 17.0.9 on MacBook-Air-Dmitrij-3.local with PID 97267 (/Users/dmitriideren/IdeaProjects/DoggyMap/target/classes started by dmitriideren in /Users/dmitriideren/IdeaProjects/DoggyMap)
+2024-04-22 18:30:35,733 INFO [restartedMain] No active profile set, falling back to default profiles: default
+2024-04-22 18:30:35,838 INFO [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-22 18:30:35,842 INFO [restartedMain] Finished Spring Data repository scanning in 3 ms. Found 4 JPA repository interfaces.
+2024-04-22 18:30:35,925 INFO [restartedMain] Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@4d2b4b2' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-04-22 18:30:35,926 INFO [restartedMain] Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-04-22 18:30:35,958 INFO [restartedMain] Tomcat initialized with port(s): 8888 (http)
+2024-04-22 18:30:35,959 INFO [restartedMain] Initializing ProtocolHandler ["http-nio-8888"]
+2024-04-22 18:30:35,959 INFO [restartedMain] Starting service [Tomcat]
+2024-04-22 18:30:35,959 INFO [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.52]
+2024-04-22 18:30:35,964 INFO [restartedMain] Initializing Spring embedded WebApplicationContext
+2024-04-22 18:30:35,964 INFO [restartedMain] Root WebApplicationContext: initialization completed in 230 ms
+2024-04-22 18:30:36,038 INFO [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-04-22 18:30:36,041 INFO [restartedMain] HikariPool-2 - Starting...
+2024-04-22 18:30:36,072 INFO [restartedMain] HikariPool-2 - Start completed.
+2024-04-22 18:30:36,072 INFO [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2024-04-22 18:30:36,152 WARN [restartedMain] GenerationTarget encountered exception accepting command : Error executing DDL "create table news (news_id bigint not null auto_increment, artwork varchar(255), banner_title varchar(255), description varchar(255), link varchar(255), name varchar(255), text varchar(255), primary key (news_id)) engine=InnoDB" via JDBC Statement
+org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL "create table news (news_id bigint not null auto_increment, artwork varchar(255), banner_title varchar(255), description varchar(255), link varchar(255), name varchar(255), text varchar(255), primary key (news_id)) engine=InnoDB" via JDBC Statement
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:67)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applySqlString(AbstractSchemaMigrator.java:562)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applySqlStrings(AbstractSchemaMigrator.java:507)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.createTable(AbstractSchemaMigrator.java:277)
+	at org.hibernate.tool.schema.internal.GroupedSchemaMigratorImpl.performTablesMigration(GroupedSchemaMigratorImpl.java:71)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.performMigration(AbstractSchemaMigrator.java:207)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.doMigration(AbstractSchemaMigrator.java:114)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:184)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:73)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:318)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:468)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1259)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:58)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:341)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1845)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1782)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:602)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:524)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1154)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:908)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:434)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:338)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1332)
+	at com.example.doggymap.DoggyMapApplication.main(DoggyMapApplication.java:14)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: java.sql.SQLSyntaxErrorException: Table 'news' already exists
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:121)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.StatementImpl.executeInternal(StatementImpl.java:767)
+	at com.mysql.cj.jdbc.StatementImpl.execute(StatementImpl.java:652)
+	at com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:94)
+	at com.zaxxer.hikari.pool.HikariProxyStatement.execute(HikariProxyStatement.java)
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:54)
+	... 39 common frames omitted
+2024-04-22 18:30:36,152 INFO [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-04-22 18:30:36,152 INFO [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-22 18:30:36,169 WARN [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-22 18:30:36,299 INFO [restartedMain] Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4fad43b8, org.springframework.security.web.context.SecurityContextPersistenceFilter@2af41896, org.springframework.security.web.header.HeaderWriterFilter@608daf65, org.springframework.security.web.authentication.logout.LogoutFilter@183521a8, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@5f65bdfa, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@66a6b92e, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6b5dc418, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@727f32cd, org.springframework.security.web.session.SessionManagementFilter@5f5eb356, org.springframework.security.web.access.ExceptionTranslationFilter@2ecc5a5c, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@676a3115]
+2024-04-22 18:30:36,357 INFO [restartedMain] Adding welcome page template: index
+2024-04-22 18:30:36,441 INFO [restartedMain] LiveReload server is running on port 35729
+2024-04-22 18:30:36,443 INFO [restartedMain] Exposing 2 endpoint(s) beneath base path '/actuator'
+2024-04-22 18:30:36,462 INFO [restartedMain] 
+
+Using generated security password: 492f1474-be2a-443d-8727-b26e48385985
+
+2024-04-22 18:30:36,465 INFO [restartedMain] Starting ProtocolHandler ["http-nio-8888"]
+2024-04-22 18:30:36,465 INFO [restartedMain] Tomcat started on port(s): 8888 (http) with context path ''
+2024-04-22 18:30:36,469 INFO [restartedMain] Started DoggyMapApplication in 0.768 seconds (JVM running for 10872.22)
+2024-04-22 18:30:36,471 INFO [restartedMain] Condition evaluation unchanged
+2024-04-22 18:40:54,005 INFO [Thread-7] Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-04-22 18:40:54,008 INFO [Thread-7] HikariPool-2 - Shutdown initiated...
+2024-04-22 18:40:54,023 INFO [Thread-7] HikariPool-2 - Shutdown completed.
+2024-04-22 18:40:54,115 INFO [restartedMain] Starting DoggyMapApplication using Java 17.0.9 on MacBook-Air-Dmitrij-3.local with PID 97267 (/Users/dmitriideren/IdeaProjects/DoggyMap/target/classes started by dmitriideren in /Users/dmitriideren/IdeaProjects/DoggyMap)
+2024-04-22 18:40:54,115 INFO [restartedMain] No active profile set, falling back to default profiles: default
+2024-04-22 18:40:54,219 INFO [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-22 18:40:54,224 INFO [restartedMain] Finished Spring Data repository scanning in 4 ms. Found 4 JPA repository interfaces.
+2024-04-22 18:40:54,312 INFO [restartedMain] Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@76ffb275' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-04-22 18:40:54,313 INFO [restartedMain] Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-04-22 18:40:54,343 INFO [restartedMain] Tomcat initialized with port(s): 8888 (http)
+2024-04-22 18:40:54,343 INFO [restartedMain] Initializing ProtocolHandler ["http-nio-8888"]
+2024-04-22 18:40:54,343 INFO [restartedMain] Starting service [Tomcat]
+2024-04-22 18:40:54,343 INFO [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.52]
+2024-04-22 18:40:54,348 INFO [restartedMain] Initializing Spring embedded WebApplicationContext
+2024-04-22 18:40:54,348 INFO [restartedMain] Root WebApplicationContext: initialization completed in 232 ms
+2024-04-22 18:40:54,415 INFO [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-04-22 18:40:54,416 INFO [restartedMain] HikariPool-3 - Starting...
+2024-04-22 18:40:54,461 INFO [restartedMain] HikariPool-3 - Start completed.
+2024-04-22 18:40:54,461 INFO [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2024-04-22 18:40:54,532 WARN [restartedMain] GenerationTarget encountered exception accepting command : Error executing DDL "create table news (news_id bigint not null auto_increment, artwork varchar(255), banner_title varchar(255), description varchar(255), link varchar(255), name varchar(255), text varchar(255), primary key (news_id)) engine=InnoDB" via JDBC Statement
+org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL "create table news (news_id bigint not null auto_increment, artwork varchar(255), banner_title varchar(255), description varchar(255), link varchar(255), name varchar(255), text varchar(255), primary key (news_id)) engine=InnoDB" via JDBC Statement
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:67)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applySqlString(AbstractSchemaMigrator.java:562)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applySqlStrings(AbstractSchemaMigrator.java:507)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.createTable(AbstractSchemaMigrator.java:277)
+	at org.hibernate.tool.schema.internal.GroupedSchemaMigratorImpl.performTablesMigration(GroupedSchemaMigratorImpl.java:71)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.performMigration(AbstractSchemaMigrator.java:207)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.doMigration(AbstractSchemaMigrator.java:114)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:184)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:73)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:318)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:468)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1259)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:58)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:341)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1845)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1782)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:602)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:524)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1154)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:908)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:434)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:338)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1332)
+	at com.example.doggymap.DoggyMapApplication.main(DoggyMapApplication.java:14)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: java.sql.SQLSyntaxErrorException: Table 'news' already exists
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:121)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.StatementImpl.executeInternal(StatementImpl.java:767)
+	at com.mysql.cj.jdbc.StatementImpl.execute(StatementImpl.java:652)
+	at com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:94)
+	at com.zaxxer.hikari.pool.HikariProxyStatement.execute(HikariProxyStatement.java)
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:54)
+	... 39 common frames omitted
+2024-04-22 18:40:54,533 INFO [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-04-22 18:40:54,533 INFO [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-22 18:40:54,550 WARN [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-22 18:40:54,780 INFO [restartedMain] Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6e403b7e, org.springframework.security.web.context.SecurityContextPersistenceFilter@7b8a4682, org.springframework.security.web.header.HeaderWriterFilter@341a8d71, org.springframework.security.web.authentication.logout.LogoutFilter@7779eb60, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@5ee89606, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@25ef27f4, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@457e573d, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@75804d9d, org.springframework.security.web.session.SessionManagementFilter@71f6c5a2, org.springframework.security.web.access.ExceptionTranslationFilter@7015d5c2, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@46a1038d]
+2024-04-22 18:40:54,838 INFO [restartedMain] Adding welcome page template: index
+2024-04-22 18:40:54,936 INFO [restartedMain] LiveReload server is running on port 35729
+2024-04-22 18:40:54,938 INFO [restartedMain] Exposing 2 endpoint(s) beneath base path '/actuator'
+2024-04-22 18:40:54,959 INFO [restartedMain] 
+
+Using generated security password: e158518d-fb5a-420e-a26d-e1c8dccd62cf
+
+2024-04-22 18:40:54,963 INFO [restartedMain] Starting ProtocolHandler ["http-nio-8888"]
+2024-04-22 18:40:54,963 INFO [restartedMain] Tomcat started on port(s): 8888 (http) with context path ''
+2024-04-22 18:40:54,968 INFO [restartedMain] Started DoggyMapApplication in 0.874 seconds (JVM running for 11490.716)
+2024-04-22 18:40:54,969 INFO [restartedMain] Condition evaluation unchanged
+2024-04-22 18:49:01,070 INFO [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-04-22 18:49:01,086 INFO [SpringApplicationShutdownHook] HikariPool-3 - Shutdown initiated...
+2024-04-22 18:49:01,134 INFO [SpringApplicationShutdownHook] HikariPool-3 - Shutdown completed.

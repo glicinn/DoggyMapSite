@@ -9,15 +9,19 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 
+import java.security.SecureRandom;
+import java.util.Base64;
+
 @Controller
 public class registrationController {
     @Autowired
     private UserRepository userRepository;
+
     @GetMapping("/registration")
-    private String RegView()
-    {
+    private String RegView() {
         return "regis";
     }
+
     @PostMapping("/registration")
     private String Reg(User user, Model model) {
         User user_from_db = userRepository.findByEmail(user.getEmail());
@@ -26,18 +30,28 @@ public class registrationController {
             return "regis";
         }
 
+        // Генерация случайной соли
+        byte[] saltBytes = generateSalt();
+        String salt = Base64.getEncoder().encodeToString(saltBytes);
 
+        // Добавление соли к паролю и его шифрование
+        String saltedPassword = salt + user.getPassword();
+        String hashedPassword = new BCryptPasswordEncoder().encode(saltedPassword);
 
-        String hashedPassword = new BCryptPasswordEncoder().encode(user.getPassword());
+        // Сохранение зашифрованного пароля и соли в БД
         user.setPassword(hashedPassword);
-
-        String last_name = user.getUserLastName();
-        user.setUserLastName(last_name);
-        user.setUserFirstName(user.getUserFirstName());
+        user.setSalt(salt);
 
         user.setRole("user");
         userRepository.save(user);
         return "redirect:/login";
     }
 
+    // Метод для генерации случайной соли
+    private byte[] generateSalt() {
+        SecureRandom random = new SecureRandom();
+        byte[] salt = new byte[16];
+        random.nextBytes(salt);
+        return salt;
+    }
 }

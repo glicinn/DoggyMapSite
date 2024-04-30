@@ -20,6 +20,7 @@
         <th>LastName</th>
         <th>Email</th>
         <th>Password</th>
+        <th>Salt</th>
         <th>Role</th>
         <th>Actions</th>
     </tr>
@@ -31,6 +32,7 @@
         <td th:text="${user.userLastName}"></td>
         <td th:text="${user.email}"></td>
         <td th:text="${user.password}"></td>
+        <td th:text="${user.salt}"></td>
         <td th:text="${user.role}"></td>
         <td>
             <a th:href="@{/users/update/{id}(id=${user.userID})}">Update</a>

@@ -1,26 +1,17 @@
 
-table{
-    border-style: ridge;
-    border-width: 0px; /* Толщина границы */
-    padding: 7px; /* Поля вокруг текста */
+table {
+    width: 100%;
+    border-collapse: collapse;
 }
 
-tr{
-    border-style: ridge;
-    border-width: 1px; /* Толщина границы */
-    padding: 7px; /* Поля вокруг текста */
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
 }
 
-td{
-    border-style: ridge;
-    border-width: 1px; /* Толщина границы */
-    padding: 7px; /* Поля вокруг текста */
-}
-
-th{
-    border-style: ridge;
-    border-width: 1px; /* Толщина границы */
-    padding: 7px; /* Поля вокруг текста */
+th {
+    background-color: #f2f2f2;
 }
 
 .input-zone{
@@ -139,3 +130,5 @@ body {
 .add-btn:hover {
     transform: scale(1.1);
 }
+
+

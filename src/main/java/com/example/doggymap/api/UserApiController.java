@@ -48,6 +48,7 @@ public class UserApiController {
         existingUser.setUserLastName(updatedUser.getUserLastName());
         existingUser.setEmail(updatedUser.getEmail());
         existingUser.setPassword(updatedUser.getPassword());
+        existingUser.setSalt(updatedUser.getSalt());
         existingUser.setRole(updatedUser.getRole());
 
         // Сохранение обновленного пользователя

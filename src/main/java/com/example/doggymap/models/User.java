@@ -27,6 +27,9 @@ public class User {
     @Column(name = "password")
     private String password;
 
+    @Column(name = "salt")
+    private String salt;
+
     @Column(name = "role")
     private String role;
 
@@ -35,12 +38,13 @@ public class User {
 
 
     public User(){}
-    public User(Long user_id, String first_name, String last_name, String email, String password, String role) {
+    public User(Long user_id, String first_name, String last_name, String email, String password, String salt, String role) {
         this.user_id = user_id;
         this.first_name = first_name;
         this.last_name = last_name;
         this.email = email;
         this.password = password;
+        this.salt = salt;
         this.role = role;
     }
 
@@ -77,6 +81,14 @@ public class User {
 
     public void setPassword(String password) {
         this.password = password;
+    }
+
+    public String getSalt() {
+        return salt;
+    }
+
+    public void setSalt(String salt) {
+        this.salt = salt;
     }
 
     public String getEmail() {
